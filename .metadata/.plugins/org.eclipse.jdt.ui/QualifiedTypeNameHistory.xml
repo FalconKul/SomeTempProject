@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.math.BigInteger"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.InternalError"/>
+<fullyQualifiedTypeName name="java.awt.image.BandCombineOp"/>
+<fullyQualifiedTypeName name="java.util.PrimitiveIterator"/>
+<fullyQualifiedTypeName name="main.Prolblem_008"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="Student"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
+<fullyQualifiedTypeName name="com.itextpdf.layout.Document"/>
+<fullyQualifiedTypeName name="com.itextpdf.styledxmlparser.jsoup.nodes.Document"/>
+<fullyQualifiedTypeName name="com.itextpdf.kernel.pdf.PdfDocument"/>
+<fullyQualifiedTypeName name="com.itextpdf.kernel.pdf.PdfWriter"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.apache.poi.xwpf.usermodel.UnderlinePatterns"/>
+</qualifiedTypeNameHistroy>

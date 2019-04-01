@@ -15,12 +15,12 @@ public class ImproveYourBrand {
         String operation;
         int number1, number2;
         // number of line exercise you want to print
-        int lines = 68*4; // one max = 4 math, 17 lines/page
+        int math = 60*4; // 1 line has 4 math, 15 lines/page => 60 * 4 page
         
         // Create Blank document
         XWPFDocument document = new XWPFDocument();
         
-        for (int i = 0; i < lines; i++) {
+        for (int i = 0; i < math; i++) {
             // Create new Paragraph
             XWPFParagraph paragraph = document.createParagraph();
             XWPFRun run = createRun(paragraph);
@@ -59,14 +59,14 @@ public class ImproveYourBrand {
     }
     
     private static String randomOperation() {
-        int operation = ThreadLocalRandom.current().nextInt(1, 3 + 1); // 3 operation: + , - , *
+        int operation = ThreadLocalRandom.current().nextInt(1, 2 + 1); // 2 operation: + , - 
         
         if (operation == 1)
             return "+";
         if (operation == 2)
             return "-";
-        if (operation == 3)
-            return "*";
+        /*if (operation == 3)
+            return "*";*/
         
         return "";
     }

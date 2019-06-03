@@ -1,7 +1,7 @@
 // => Getter can return reference of Object Type, setter can set reference for Object Type.
 // With primary type, getter, setter just get, set value
 // With Object of primary type (INTERGER, BOOLEAN, ...) getter/setter just get/set value
-public class testGerter {
+public class TestGetter {
     
     public static void main(String[] args) {
         Student a = new Student("");

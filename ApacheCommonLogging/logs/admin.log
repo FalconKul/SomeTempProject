@@ -1,0 +1,12 @@
+04 Jun 2019 15:02:19,358 {main} ERROR commonlogging.admin.AdminApplication  - Example error message ..
+04 Jun 2019 15:02:19,370 {main} FATAL commonlogging.admin.AdminApplication  - Example fatal message ..
+04 Jun 2019 15:02:19,375 {main} FATAL commonlogging.admin.AdminApplication  - <Some Object>
+java.lang.Exception: Test Exception
+	at commonlogging.admin.AdminApplication.raiseException(AdminApplication.java:24)
+	at commonlogging.admin.AdminApplication.main(AdminApplication.java:17)
+04 Jun 2019 15:02:40,092 {main} ERROR commonlogging.admin.AdminApplication  - Example error message ..
+04 Jun 2019 15:02:40,093 {main} FATAL commonlogging.admin.AdminApplication  - Example fatal message ..
+04 Jun 2019 15:02:40,100 {main} FATAL commonlogging.admin.AdminApplication  - <Some Object>
+java.lang.Exception: Test Exception
+	at commonlogging.admin.AdminApplication.raiseException(AdminApplication.java:24)
+	at commonlogging.admin.AdminApplication.main(AdminApplication.java:17)

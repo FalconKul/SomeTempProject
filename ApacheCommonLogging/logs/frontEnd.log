@@ -1,0 +1,10 @@
+0    [main] DEBUG commonlogging.frontend.FrontEndApplication  - Example debug message ..
+1    [main] INFO  commonlogging.frontend.FrontEndApplication  - Example info message ..
+1    [main] WARN  commonlogging.frontend.FrontEndApplication  - Example warn message ..
+1    [main] ERROR commonlogging.frontend.FrontEndApplication  - Example error message ..
+1    [main] FATAL commonlogging.frontend.FrontEndApplication  - Example fatal message ..
+04 Jun 2019 15:02:41,565 {main} DEBUG commonlogging.frontend.FrontEndApplication  - Example debug message ..
+04 Jun 2019 15:02:41,567 {main} INFO  commonlogging.frontend.FrontEndApplication  - Example info message ..
+04 Jun 2019 15:02:41,567 {main} WARN  commonlogging.frontend.FrontEndApplication  - Example warn message ..
+04 Jun 2019 15:02:41,568 {main} ERROR commonlogging.frontend.FrontEndApplication  - Example error message ..
+04 Jun 2019 15:02:41,568 {main} FATAL commonlogging.frontend.FrontEndApplication  - Example fatal message ..

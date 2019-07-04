@@ -12,6 +12,14 @@ public class SumObject {
         this.sum = sum;
     }
     
+    public int getStaticSum() {
+        return staticSum;
+    }
+    
+    public void setStaticSum(int sum) {
+        this.staticSum = sum;
+    }
+    
     public void calculate() {
         setSum(getSum() + 1);
     }
@@ -22,5 +30,11 @@ public class SumObject {
     
     public static synchronized void syncStaticCalculate() {
         staticSum = staticSum + 1;
+    }
+    
+    public static void performSynchrinisedTask() {
+        synchronized (SumObject.class) {
+            staticSum = staticSum + 1;
+        }
     }
 }

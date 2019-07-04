@@ -31,13 +31,20 @@ public class MultiThread {
         summation.setSum(0);
         IntStream.range(0, 1000).forEach(count -> service.submit(summation::synchronisedCalculate));
         service.awaitTermination(1000, TimeUnit.MILLISECONDS);
-        // Equal because use multi thread with synchronized code block
+        // Equal because use multi thread with synchronized method
         assertEquals(1000, summation.getSum());
         
         // Use static synchronized method
         IntStream.range(0, 1000).forEach(count -> service.submit(SumObject::syncStaticCalculate));
         service.awaitTermination(1000, TimeUnit.MILLISECONDS);
-        // Equal because use multi thread with synchronized code block
-        assertEquals(1000, summation.getSum());
+        // Equal because use multi thread with synchronized method
+        assertEquals(1000, summation.getStaticSum());
+        
+        // Use static synchronized block
+        summation.setStaticSum(0);
+        IntStream.range(0, 1000).forEach(count -> service.submit(SumObject::performSynchrinisedTask));
+        service.awaitTermination(1000, TimeUnit.MILLISECONDS);
+        // Equal because use multi thread with synchronized block
+        assertEquals(1000, summation.getStaticSum());
     }
 }

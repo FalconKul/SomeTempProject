@@ -6,19 +6,18 @@ import java.io.IOException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-/**
- * Hello world!
- *
- */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Welcome to Jsoup Tutorial!");
         File htmlFile = new File("C:/Users/K Notebook/Downloads/ADMIN4/ADMIN4_25.html");
         try {
+            System.out.println("Parse HTML to Jsoup Document");
             Document doc = Jsoup.parse(htmlFile, "UTF-8");
-            String title = doc.title();
-            System.out.println("Title : " + title);
-            System.out.println(doc.toString());
+            System.out.println();
+            
+            System.out.println("Get body info");
+            System.out.println(doc.getElementsByTag("body"));
+            
         
         } catch (IOException e) {
             e.printStackTrace();

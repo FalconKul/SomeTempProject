@@ -1,4 +1,4 @@
-package spring.basic.HelloSpringMVC.config;
+package spring.basic.hellospringmvc.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;

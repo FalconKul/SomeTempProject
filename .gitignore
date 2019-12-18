@@ -1,0 +1,8 @@
+# Don't track content of these folders
+**.metadata/
+**.recommenders/
+**/.settings
+**/.project
+**/target
+**/bin
+**/.classpath

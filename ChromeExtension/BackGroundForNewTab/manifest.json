@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Click To Search Image",
+  "description": "Change the background of New Tab of Chrome",
+  "version": "1.0",
+  
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://api.giphy.com/"
+  ]
+}

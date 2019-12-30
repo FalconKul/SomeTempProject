@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Click To Search Image",
   "description": "A extension help search image on giffy by topic and Change the background of New Tab of Chrome",
-  "version": "1.1",
+  "version": "2.0",
   
   "browser_action": {
     "default_icon": "icon.png",
